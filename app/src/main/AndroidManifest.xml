@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.alixwarnke.vinetikett"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.android.com/apk/res/android "
+        >
+
+    <application
+            android:allowBackup="false"
+            android:label="@string/app_name"
+            android:name=".VinEtikettApplication"
+            >
+
+        <activity
+                android:label="@string/app_name"
+                android:launchMode="singleTop"
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
