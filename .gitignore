@@ -1,3 +1,13 @@
+# Local
+*.iml
+.idea
+build
+local.properties
+
+# Gradle wrapper
+gradlew
+gradlew.bat
+
 # Compiled class file
 *.class
 
